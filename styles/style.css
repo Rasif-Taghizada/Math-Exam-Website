@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+/* Header Section */
+header{
+    width: 100%;
+    box-shadow: 0px 15px 10px -15px #111;   
+}
+header > nav{
+    width: 80%;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.nav-left img{
+    width: 200px;
+    height: 50px;
+}
+.nav-center{
+    width: 40%;
+}
+.nav-center > ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 22px;
+}
+.nav-center a{
+    color: #000;
+}
+.nav-right > button{
+    padding: 10px 24px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: cyan;
+    background-color: black;
+}
+
+/* Exam Section */
+main{
+    background-color: #F2F2F2;
+}
+.exam{
+    width: 80%;
+    margin: 0 auto;
+    height: calc(100vh - 120px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.exam-left-content{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 400px;
+}
+.content-top > p{
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+.content-top > h1{
+    font-size: 38px;
+}
+.content-bottom > div:nth-child(1) button{
+    font-size: 24px;
+    padding: 10px 30px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    color: white;
+    background-color: #000;
+}
+.content-bottom > div:nth-child(2){
+    margin-top: 60px;
+}
+.content-bottom > div:nth-child(2) p{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.exam-right-content img{
+    width: 700px;
+}
+
+/* Graduates Section*/
+main ~ div{
+    background-color: white;
+}
+.graduates{
+    height: 100vh;  
+    width: 80%;
+    margin: 0 auto;
+}
+.graduates-content{
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 34px;
+    text-align: center;
+}
+.graduate-card{
+    width: 300px;
+    height: 350px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(20, 19, 19, 0.1);
+}
+.graduate-image-background{
+    height: 40%;
+    width: 100%;
+    background-color: #7d2ae8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.graduate-image{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    padding: 3px;
+    background: #7d2ae8;
+    margin-top: 60px;
+}
+.graduate-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+.container-graduates{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.graduate-description{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 170px;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
